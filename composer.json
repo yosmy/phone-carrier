@@ -1,0 +1,23 @@
+{
+    "name": "yosmy/phone-carrier",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/mongo": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
